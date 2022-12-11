@@ -1,5 +1,6 @@
 .testimonials_container{
   width: 40%;
+  padding-bottom: 4rem;
 }
 
 .client_avatar{
@@ -26,7 +27,9 @@
   width: 80%;
   margin: 0.8rem auto 4rem;
 }
-
+.swiper-pagination-clickable .swiper-pagination-bullet-active{
+  background: var(--color-primary);
+}
 /*=================Responsive(tablet)================*/
 @media screen and (max-width:1024px) {
   .container.testimonials_container{
