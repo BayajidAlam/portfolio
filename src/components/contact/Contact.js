@@ -10,10 +10,10 @@ const Contact = () => {
   const form = useRef();
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, 'YOUR_PUBLIC_KEY')
+    emailjs.sendForm('service_2pqgl4x', 'template_bo4w939', form.current, '9y8P4jc0UnKIVoTWo')
       .then((result) => {
           console.log(result.text);
+          e.target.reset()
       }, (error) => {
           console.log(error.text);
       });
@@ -45,7 +45,7 @@ const Contact = () => {
             <a target='_blank' href="https://api.whatsapp.com/send?phone=01860301407">Send a message</a>
           </article>
         </div>
-        <form action="">
+        <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder='Your Full Name' required/>
           <input type="email" name="name" />
           <textarea name="message" rows="7" placeholder='Your Message' required></textarea>
