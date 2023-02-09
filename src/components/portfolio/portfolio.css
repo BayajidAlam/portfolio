@@ -4,6 +4,11 @@
   gap: 2.5rem;
 }
 
+/* --container-width-lg: 75%;
+--container-width-md: 86%;
+--container-width-sm: 90%; */
+
+
 .portfolio_item{
   background: var(--color-bg-variant);
   padding: 1.3rem;
@@ -35,18 +40,43 @@
 }
 
 /*===========Responsive()==============*/
+  /* for large screen  */
+  @media screen and (min-width: 1024px) {
+    .container-main{
+      width: 75%;
+      margin: 0 auto;
+    }
+  }
+
+  /* for medium screen  */
   @media screen and (max-width: 1024px){
     .portfolio_container{
       grid-template-columns: 1fr 1fr;
       gap: 1.2rem;
     }
+
+    .container-main{
+      width: 86%;
+      margin: 0 auto;
+    }
   }
 
 /*===========Responsive()==============*/
-
+/* for small screen  */
 @media screen and (max-width: 600px){
     .portfolio_container{
       grid-template-columns: 1fr;
+      align-items: center;
       gap: 1rem;
     }
+
+    .portfolio_item{
+      margin-bottom: 10px;
+    }
+
+    .container-main{
+      width: 95%;
+      margin: 0 auto;
+    }
 }
+

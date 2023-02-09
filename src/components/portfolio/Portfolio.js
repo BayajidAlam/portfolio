@@ -79,7 +79,7 @@ const Portfolio = () => {
       <h5>My Recent Projects</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio_container">
+      <div className="container-main portfolio_container">
         {
           data.map(project=>   
           <article key={project.id} className="portfolio_item">
