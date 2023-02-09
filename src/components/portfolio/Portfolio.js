@@ -1,14 +1,9 @@
 import React from "react";
 import "./portfolio.css";
-import IMG1 from "../../assets/portfolio1.jpg";
-import IMG2 from "../../assets/portfolio2.jpg";
-import IMG3 from "../../assets/portfolio3.jpg";
-import IMG4 from "../../assets/portfolio4.jpg";
-import IMG5 from "../../assets/portfolio5.png";
-import IMG6 from "../../assets/portfolio6.jpg";
-import fruniDokan from '../../assets/furni-dokan.web.app_.png';
-import swift from '../../assets/swift-delivery-9c27f.web.app_.png';
-import easy from '../../assets/easy-learning-1c6cd.web.app_.png';
+
+import fruniDokan from '../../assets/furni-dokan-squre.web.app_.png';
+import swift from '../../assets/swift-delivery-squere.web.app_.png';
+import easy from '../../assets/easy-learning-squere.web.app_.png';
 
 const data = [
   {
@@ -16,6 +11,7 @@ const data = [
     image: fruniDokan,
     title: "Furni Dokan",
     liveSite: "https://furni-dokan.web.app/",
+    githubClient: "https://github.com/BayajidAlam/furni-dokan-client",
     technologies:"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, Stripe,JWT, Tailwind CSS,Daisy Ui, React,Query, React Hook Form.",
     timePeriod: 5,
     features:[
@@ -41,6 +37,7 @@ const data = [
     image: swift,
     title: "Swift Delivary",
     liveSite: "https://swift-delivery-9c27f.web.app/",
+    githubClient: "https://github.com/BayajidAlam/swift-delivery-client",
     technologies:"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Tailwind CSS",
     timePeriod: 3,
     features:[
@@ -60,6 +57,7 @@ const data = [
     image: easy,
     title: "Easy Learning",
     liveSite: "https://easy-learning-1c6cd.web.app/",
+    githubClient: "https://github.com/BayajidAlam/Easy-learning-client",
     technologies:"ReactJs, NodeJs, ExpressJs,Firebase,JWT, ContextAPI, Tailwind CSS",
     timePeriod: 2,
     features:[
@@ -90,8 +88,8 @@ const Portfolio = () => {
           </div>
           <h3>{project.title}</h3>
           <div className="portfolio_item-cta">
-            <a href="" className="btn">
-              Project Details
+            <a href={project.githubClient} className="btn" target="_blank" >
+              Github Client
             </a>
             <a href={project.liveSite} className="btn btn-primary" target="_blank">
               Live Demo

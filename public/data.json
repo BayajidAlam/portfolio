@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/tKhCgCs/furni-dokan-web-app.png",
+    "title": "Furni Dokan",
+    "liveSite": "https://furni-dokan.web.app/",
+    "technologies":"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, Stripe,JWT, Tailwind CSS,Daisy Ui, React,Query, React Hook Form.",
+    "timePeriod": 5,
+    "features":[
+      { "id":1,
+        "feature":"Implemented Card Payment Method(stripe) and stored all data at MongoDB."
+      },
+      { "id":2,
+        "feature":"Developed an Admin portal to manage all Sellers, all buyers and reported items."
+      },
+      { "id":3,
+        "feature":"Developed a Buyer portal to manage their profile, orders, and make payments."
+      },
+      { "id":4,
+        "feature":"Developed a Seller portal to add a product, product availability, manage his product and buyer."
+      },
+      { "id":5,
+        "feature":"Admin Credentials will be found in the README.me file on the Client Site Github link."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/FWQx7sF/swift-delivery-9c27f-web-app.png",
+    "title": "Swift Delivary",
+    "liveSite": "https://swift-delivery-9c27f.web.app/",
+    "technologies":"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Tailwind CSS",
+    "timePeriod": 3,
+    "features":[
+      { "id":1,
+        "feature":"Landing page designed for showcasing and updating new customers."
+      },
+      { "id":1,
+        "feature":"Landing page designed for showcasing and updating new customers."
+      },
+      { "id":1,
+        "feature":"Landing page designed for showcasing and updating new customers."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/t8qZ1DF/easy-learning-1c6cd-web-app.png",
+    "title": "Easy Learning",
+    "liveSite": "https://easy-learning-1c6cd.web.app/",
+    "technologies":"ReactJs, NodeJs, ExpressJs,Firebase,JWT, ContextAPI, Tailwind CSS",
+    "timePeriod": 2,
+    "features":[
+      { "id":1,
+        "feature":"Implemented firebase authentication"
+      },
+      { "id":2,
+        "feature":"Server is hosted on vercel"
+      },
+      { "id":3,
+        "feature":"Full screen mode"
+      }
+    ]
+  }
+]
