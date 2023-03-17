@@ -1,17 +1,17 @@
 import React from "react";
 import "./portfolio.css";
 
-import fruniDokan from '../../assets/furni-dokan-squre.web.app_.png';
-import swift from '../../assets/swift-delivery-squere.web.app_.png';
-import easy from '../../assets/easy-learning-squere.web.app_.png';
+import fruniDokan from '../../assets/resume-builder-0001.netlify.app_.png';
+import swift from '../../assets/sound-music-store.web.app_.png';
+import easy from '../../assets/karat-87bd6.web.app_.png';
 
 const data = [
   {
     id: 1,
     image: fruniDokan,
-    title: "Furni Dokan",
-    liveSite: "https://furni-dokan.web.app/",
-    githubClient: "https://github.com/BayajidAlam/furni-dokan-client",
+    title: "Resume Builder",
+    liveSite: "https://resume-builder-0001.netlify.app/",
+    githubClient: "https://github.com/BayajidAlam/resume-builder",
     technologies:"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, Stripe,JWT, Tailwind CSS,Daisy Ui, React,Query, React Hook Form.",
     timePeriod: 5,
     features:[
@@ -35,9 +35,9 @@ const data = [
   {
     id: 2,
     image: swift,
-    title: "Swift Delivary",
-    liveSite: "https://swift-delivery-9c27f.web.app/",
-    githubClient: "https://github.com/BayajidAlam/swift-delivery-client",
+    title: "Sound Music Store",
+    liveSite: "https://sound-music-store.web.app/",
+    githubClient: "https://github.com/BayajidAlam/sound-music-store-client",
     technologies:"ReactJs, NodeJs, ExpressJs, MongoDB, Firebase, JWT, Tailwind CSS",
     timePeriod: 3,
     features:[
@@ -55,9 +55,9 @@ const data = [
   {
     id: 3,
     image: easy,
-    title: "Easy Learning",
-    liveSite: "https://easy-learning-1c6cd.web.app/",
-    githubClient: "https://github.com/BayajidAlam/Easy-learning-client",
+    title: "Karata",
+    liveSite: "https://karat-87bd6.web.app/",
+    githubClient: "https://github.com/BayajidAlam/karata-client",
     technologies:"ReactJs, NodeJs, ExpressJs,Firebase,JWT, ContextAPI, Tailwind CSS",
     timePeriod: 2,
     features:[

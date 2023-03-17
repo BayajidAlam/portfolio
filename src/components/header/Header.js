@@ -1,7 +1,7 @@
 import React from 'react';
 import CTA from '../CTA';
 import './header.css'
-import Me from '../../assets/1609047362970.jpg.jpg';
+import Me from '../../assets/profile.jpg';
 import Social from './Social';
 
 const Header = () => {
@@ -18,8 +18,10 @@ const Header = () => {
           </div>
           <a href="#contact" className='scroll_down'>Scroll down</a>
         </div>
+      
     </header>
   );
 };
+
 
 export default Header;
